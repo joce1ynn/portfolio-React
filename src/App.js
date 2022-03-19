@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-import About from "./components/Pages/About";
 import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
+import Portfolio from "./components/Pages/Portfolio";
+import Contact from "./components/Pages/Contact";
+import Resume from "./components/Pages/Resume";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -13,6 +16,12 @@ function App() {
         return <Home />;
       case "About":
         return <About />;
+      case "Portfolio":
+        return <Portfolio />;
+      case "Contact":
+        return <Contact />;
+      case "Resume":
+        return <Resume />;
     }
   };
 
