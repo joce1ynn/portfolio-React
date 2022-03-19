@@ -51,7 +51,7 @@ export default function Contact() {
       <div>
         <h1>Send a Message</h1>
         <form className="form">
-          <label for="name">Name</label>
+          <label htmlFor="name">Name</label>
           <input
             value={name}
             name="name"
@@ -60,7 +60,7 @@ export default function Contact() {
             placeholder="Jane Doe"
           />
 
-          <label for="email">Email</label>
+          <label htmlFor="email">Email</label>
           <input
             value={email}
             name="email"
@@ -69,7 +69,7 @@ export default function Contact() {
             placeholder="jdoe@email.com"
           />
 
-          <label for="message">Message</label>
+          <label htmlFor="message">Message</label>
           <input
             value={message}
             name="message"
