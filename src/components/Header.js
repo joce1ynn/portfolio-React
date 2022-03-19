@@ -1,12 +1,12 @@
 import React from "react";
-import Nav from "./Navigation";
-import "../assets/css/styles.css";
+import Navigation from "./Navigation";
+import Navbar from "react-bootstrap/Navbar";
 
 export default function Header(props) {
   return (
-    <div>
-      <h1 className="Title">Wenwen Tian</h1>
-      <Nav setCurrentPage={props.setCurrentPage}></Nav>
-    </div>
+    <Navbar>
+      <Navbar.Brand className="name">Wenwen Tian</Navbar.Brand>
+      <Navigation setCurrentPage={props.setCurrentPage}></Navigation>
+    </Navbar>
   );
 }

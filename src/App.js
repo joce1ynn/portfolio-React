@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 import About from "./components/Pages/About";
+import Home from "./components/Pages/Home";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("Home");
 
-  const renderPage = () => {
+  const RenderPage = () => {
     switch (currentPage) {
-      case "About":
+      case "Home":
       default:
+        return <Home />;
+      case "About":
         return <About />;
     }
   };
@@ -16,7 +19,7 @@ function App() {
   return (
     <div>
       <Header setCurrentPage={setCurrentPage}></Header>
-      {renderPage()}
+      <RenderPage />
     </div>
   );
 }
