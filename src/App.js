@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+// import pages
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Portfolio from "./components/Pages/Portfolio";
@@ -29,6 +31,7 @@ function App() {
     <div>
       <Header setCurrentPage={setCurrentPage}></Header>
       <RenderPage />
+      <Footer />
     </div>
   );
 }
