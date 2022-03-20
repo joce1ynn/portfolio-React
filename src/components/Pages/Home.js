@@ -5,6 +5,7 @@ export default function Home() {
     <div>
       <h1>Hi, I am Wenwen Tian</h1>
       <p>Full Stack Developer</p>
+      <p>some web develop icons here</p>
     </div>
   );
 }

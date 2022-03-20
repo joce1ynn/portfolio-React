@@ -6,6 +6,7 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [messageSent, setMessageSent] = useState("");
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -39,17 +40,19 @@ export default function Contact() {
       return;
     }
 
-    alert(`Hello ${name}! Your message has been sent!`);
     // If everything is good, clear out the input after a successful sending.
     setName("");
     setEmail("");
     setMessage("");
+    setErrorMessage("");
+    setMessageSent(`Hello ${name}! Your message has been sent!`);
   };
 
   return (
     <div>
       <div>
         <h1>Send a Message</h1>
+        {/* -------------------Fill out name------------------  */}
         <form className="form">
           <label htmlFor="name">Name</label>
           <input
@@ -60,6 +63,7 @@ export default function Contact() {
             placeholder="Jane Doe"
           />
 
+          {/* -------------------Fill out emaill------------------  */}
           <label htmlFor="email">Email</label>
           <input
             value={email}
@@ -69,6 +73,7 @@ export default function Contact() {
             placeholder="jdoe@email.com"
           />
 
+          {/* -------------------Fill out message------------------  */}
           <label htmlFor="message">Message</label>
           <input
             value={message}
@@ -78,27 +83,30 @@ export default function Contact() {
             type="text"
             placeholder="message..."
           />
+
+          {/* -------------------submit btn------------------  */}
           <button
             type="button"
             onClick={handleFormSubmit}
             onChange={handleInputChange}
           >
-            Submit
+            Send
           </button>
+
+          {/* -------------------error message------------------  */}
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+
+          {/* -------------------message sent------------------  */}
+          {messageSent && (
+            <div>
+              <p className="send-text">{messageSent}</p>
+            </div>
+          )}
         </form>
-
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-      </div>
-
-      <div>
-        <h1>Get in Touch</h1>
-        <p>wwtian9@gmail.com</p>
-        <p>385-216-1524</p>
-        <p>Salt Lake City, Utah</p>
       </div>
     </div>
   );
