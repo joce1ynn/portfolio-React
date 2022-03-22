@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-// import react bootstrap
+// import react bootstrap and css
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/css/styles.css";
+// import components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-// import pages
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Portfolio from "./components/Pages/Portfolio";

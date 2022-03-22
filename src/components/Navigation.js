@@ -6,17 +6,6 @@ export default function Navigation(props) {
 
   return (
     <Nav className="pages">
-      {/* -------------------Home page------------------- */}
-      <Nav.Link
-        className="page"
-        href="#home"
-        onClick={() => {
-          setCurrentPage("Home");
-        }}
-      >
-        Home
-      </Nav.Link>
-
       {/* -------------------About page------------------- */}
       <Nav.Link
         className="page"
@@ -25,7 +14,7 @@ export default function Navigation(props) {
           setCurrentPage("About");
         }}
       >
-        About Me
+        About
       </Nav.Link>
 
       {/* -------------------Portfolio page------------------- */}
