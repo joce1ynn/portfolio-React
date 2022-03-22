@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+// import react bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 // import pages

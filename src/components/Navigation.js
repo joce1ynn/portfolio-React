@@ -9,6 +9,7 @@ export default function Navigation(props) {
       {/* -------------------Home page------------------- */}
       <Nav.Link
         className="page"
+        href="#home"
         onClick={() => {
           setCurrentPage("Home");
         }}
@@ -19,6 +20,7 @@ export default function Navigation(props) {
       {/* -------------------About page------------------- */}
       <Nav.Link
         className="page"
+        href="#about"
         onClick={() => {
           setCurrentPage("About");
         }}
@@ -29,6 +31,7 @@ export default function Navigation(props) {
       {/* -------------------Portfolio page------------------- */}
       <Nav.Link
         className="page"
+        href="#portfolio"
         onClick={() => {
           setCurrentPage("Portfolio");
         }}
@@ -39,6 +42,7 @@ export default function Navigation(props) {
       {/* -------------------Contact page------------------- */}
       <Nav.Link
         className="page"
+        href="#contact"
         onClick={() => {
           setCurrentPage("Contact");
         }}
@@ -49,6 +53,7 @@ export default function Navigation(props) {
       {/* -------------------Resume page------------------- */}
       <Nav.Link
         className="page"
+        href="#resume"
         onClick={() => {
           setCurrentPage("Resume");
         }}
@@ -60,3 +65,4 @@ export default function Navigation(props) {
 }
 
 // it needs to be an arrow function inside the onClick()
+// the title corresponding to the current section is highlighted

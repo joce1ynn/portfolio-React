@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <h1>Hi, I am Wenwen Tian</h1>
       <div>
-        <Typed strings={["Full Stack Developer"]} typeSpeed={60} />
+        <Typed strings={["Full Stack Developer"]} typeSpeed={80} />
       </div>
       <img src={webIcon} className="icon" alt="web development icon" />
     </div>
