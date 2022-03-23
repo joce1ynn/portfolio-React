@@ -33,18 +33,16 @@ To run this project, install it locally using npm:
 npm init -y
 npm install react-typed --legacy-peer-deps
 npm install react-bootstrap bootstrap@5.1.3
+npm install gh-pages --save-dev
 ```
 
 ## Usage
 
 After installing npm packages, the application will be invoked by using the following command: `node index.js`.
-It accepts user input, and can display the results on a formatted README file generated in the dist folder.
 
-#### Walkthrough Video
+[Click me to see app!](https://joce1ynn.github.io/portfolio-React/)
 
-[Click me to see the demo video!](https://www.awesomescreenshot.com/video/7015399?key=3428a892b1ac4c806df108fb1bf83f03)
-
-#### Example Screenshot
+#### Portfolio Screenshot
 
 ![Screenshot](/assets/images/ET-1.png)
 ![Screenshot](/assets/images/ET-2.png)
