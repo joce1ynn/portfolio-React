@@ -12,7 +12,9 @@
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-tsparticles": "^1.42.4",
     "react-typed": "^1.2.0",
+    "tsparticles-preset-links": "^1.42.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
