@@ -34,6 +34,8 @@ npm init -y
 npm install react-typed --legacy-peer-deps
 npm install react-bootstrap bootstrap@5.1.3
 npm install gh-pages --save-dev
+npm install react-tsparticles 
+npm i tsparticles-preset-links
 ```
 
 ## Usage
