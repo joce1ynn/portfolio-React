@@ -178,3 +178,65 @@ textarea {
 .send-icon {
   height: 20px;
 }
+
+/* resume page */
+.resume-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download {
+  width: 180px;
+  height: 42px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(to left, #00c853, #b2ff59);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.download-icon {
+  height: 23px;
+}
+
+.skill-div {
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 20px;
+}
+.skill {
+  margin-bottom: 50px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #00c853, #b2ff59) border-box;
+}
+
+.tag {
+  padding-top: 0.3rem;
+  padding-bottom: 0.4rem;
+  width: 100%;
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.tag span {
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 100px;
+  margin: 0 6px 6px 0;
+  background-color: rgb(219, 214, 214);
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
