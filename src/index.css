@@ -67,3 +67,20 @@ body {
   text-align: center;
   padding-top: 6px;
 }
+
+/* about me page */
+.profile {
+  width: 330px;
+  height: 440px;
+}
+
+.about {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 50px;
+}
+
+.description{
+  margin: 25px 10px;
+  font-size: 18px;
+}
