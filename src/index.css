@@ -20,7 +20,7 @@ body {
   z-index: 0;
 }
 
-.title {
+.intro {
   width: 100%;
   text-align: center;
   margin: 15% auto;
@@ -68,19 +68,107 @@ body {
   padding-top: 6px;
 }
 
+.title {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 50px;
+  background: linear-gradient(to top, #00c853, #b2ff59);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 /* about me page */
 .profile {
   width: 330px;
   height: 440px;
 }
 
-.about {
-  text-align: center;
-  margin: 50px auto;
-  font-size: 50px;
-}
-
-.description{
+.description {
   margin: 25px 10px;
   font-size: 18px;
+}
+
+/* contact page  */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-div {
+  width: 420px;
+  margin-bottom: 25px;
+}
+
+label {
+  display: inline-flex;
+  padding: 0 5px;
+  font-size: 0.9rem;
+  transform: translate(25px, 50%);
+  font-weight: 600;
+  background-color: black;
+  color: #00c853;
+}
+
+input,
+textarea {
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #00c853, #b2ff59) border-box;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.7rem;
+  width: 100%;
+  background-color: black;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+textarea {
+  height: 150px;
+}
+
+.send,
+.send-btn {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(to left, #00c853, #b2ff59);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.send-btn:hover {
+  transform: scale(1.1);
+}
+
+.send-icon {
+  height: 20px;
+}
+
+.error-text {
+  color: rgb(249, 55, 55);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.error-icon {
+  height: 16px;
+  margin-right: 3px;
+}
+
+.send-text {
+  margin-top: 10px;
+}
+
+.send-icon {
+  height: 20px;
 }

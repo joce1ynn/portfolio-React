@@ -7,7 +7,7 @@ import myImage from "../../assets/images/me.JPG";
 export default function About() {
   return (
     <Container>
-      <h2 className="about">About Me</h2>
+      <h2 className="title">About Me</h2>
       <Row>
         <Col sm={4}>
           <img src={myImage} alt="profile" className="profile" />

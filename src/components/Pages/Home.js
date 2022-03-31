@@ -13,12 +13,12 @@ function particlesInit(tsParticles) {
 export default function Home() {
   return (
     <div className="container">
-      <div className="title">
+      <div className="intro">
         <h1 className="hi">Hi, I am Wenwen Tian</h1>
         <Typed
           className="typing"
           strings={["Full Stack Developer"]}
-          typeSpeed={80}
+          typeSpeed={95}
         />
         <div>
           <img src={webIcon} className="webicon" alt="web development icon" />{" "}

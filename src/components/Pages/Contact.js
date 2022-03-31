@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import errorIcon from "../../assets/icons/error.png";
+import sendIcon from "../../assets/icons/send.png";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -30,12 +32,14 @@ export default function Contact() {
 
     // check to see if the field is empty. If so send an error message.
     if (!name || !email || !message) {
+      setMessageSent("");
       setErrorMessage("Please enter all the fields.");
       // exit out of this code block if something is wrong so that the user can correct it
       return;
     }
     // check to see if the email is not valid
     if (!validateEmail(email)) {
+      setMessageSent("");
       setErrorMessage("Email is invalid.");
       return;
     }
@@ -45,65 +49,90 @@ export default function Contact() {
     setEmail("");
     setMessage("");
     setErrorMessage("");
-    setMessageSent(`Hello ${name}! Your message has been sent!`);
+    setMessageSent(`Hello ${name}! Your message has been sent`);
   };
 
   return (
     <div>
       <div>
-        <h1>Send a Message</h1>
-        {/* -------------------Fill out name------------------  */}
+        <h2 className="title">Send a Message</h2>
         <form className="form">
-          <label htmlFor="name">Name</label>
-          <input
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Jane Doe"
-          />
+          {/* -------------------Fill out name------------------  */}
+          <div className="input-div">
+            <label htmlFor="name">Name</label>
+            <input
+              value={name}
+              name="name"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Jane Doe"
+            />
+          </div>
 
           {/* -------------------Fill out emaill------------------  */}
-          <label htmlFor="email">Email</label>
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="jdoe@email.com"
-          />
+          <div className="input-div">
+            <label htmlFor="email">Email</label>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              placeholder="jdoe@email.com"
+            />
+          </div>
 
           {/* -------------------Fill out message------------------  */}
-          <label htmlFor="message">Message</label>
-          <input
-            value={message}
-            name="message"
-            lable="Message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="message..."
-          />
+          <div className="input-div">
+            <label htmlFor="message">Message</label>
+            <textarea
+              value={message}
+              name="message"
+              lable="Message"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="message..."
+            />
+          </div>
 
           {/* -------------------submit btn------------------  */}
-          <button
-            type="button"
-            onClick={handleFormSubmit}
-            onChange={handleInputChange}
-          >
-            Send
-          </button>
+          <div className="input-div send">
+            <button
+              className="send-btn"
+              type="button"
+              onClick={handleFormSubmit}
+              onChange={handleInputChange}
+            >
+              Send
+            </button>
+          </div>
 
           {/* -------------------error message------------------  */}
           {errorMessage && (
             <div>
-              <p className="error-text">{errorMessage}</p>
+              <p className="error-text">
+                <img
+                  alt="alert"
+                  style={{ display: "inline" }}
+                  src={errorIcon}
+                  className="error-icon"
+                />
+                {errorMessage}
+              </p>
             </div>
           )}
 
           {/* -------------------message sent------------------  */}
           {messageSent && (
             <div>
-              <p className="send-text">{messageSent}</p>
+              <p className="send-text">
+                {messageSent}{" "}
+                <img
+                  alt="send"
+                  style={{ display: "inline" }}
+                  src={sendIcon}
+                  className="send-icon"
+                />
+              </p>
             </div>
           )}
         </form>
