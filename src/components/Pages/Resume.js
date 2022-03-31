@@ -1,9 +1,10 @@
 import React from "react";
-import CV from "../../assets/resume/CV_wwt.docx";
+import CV from "../../assets/resume/CV_wwt.pdf";
 
 export default function Resume() {
   return (
     <div>
+      <h2 className="title">Resume</h2>
       <a href={CV} download>
         Download CV
         {/* --------Frontend Skills------------ */}
