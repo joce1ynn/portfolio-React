@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-React/static/css/main.22312a9d.css",
-    "main.js": "/portfolio-React/static/js/main.2fc2dbf2.js",
+    "main.css": "/portfolio-React/static/css/main.16e17bf3.css",
+    "main.js": "/portfolio-React/static/js/main.e65b7776.js",
+    "static/js/415.1d8e63bb.chunk.js": "/portfolio-React/static/js/415.1d8e63bb.chunk.js",
     "static/js/787.d1c4c51b.chunk.js": "/portfolio-React/static/js/787.d1c4c51b.chunk.js",
-    "static/media/me.JPG": "/portfolio-React/static/media/me.18627f7997020bb63935.JPG",
+    "static/media/me.JPG": "/portfolio-React/static/media/me.b1b822f440e05827052a.JPG",
     "static/media/matrix.jpg": "/portfolio-React/static/media/matrix.fccb5509920bfdad9b67.jpg",
     "static/media/run.jpeg": "/portfolio-React/static/media/run.e6ef0288be8d7ea91326.jpeg",
     "static/media/chrip.webp": "/portfolio-React/static/media/chrip.b3e129d9ba33b2f22d05.webp",
+    "static/media/CV_wwt.pdf": "/portfolio-React/static/media/CV_wwt.5e9c37cc3f2dafd5bd75.pdf",
     "static/media/task.jpeg": "/portfolio-React/static/media/task.4411284fb450a2358cd0.jpeg",
     "static/media/quiz.webp": "/portfolio-React/static/media/quiz.3b388828e138d12b7f4e.webp",
-    "static/media/CV_wwt.docx": "/portfolio-React/static/media/CV_wwt.ccc54c10e979220a1bfa.docx",
-    "static/media/web.png": "/portfolio-React/static/media/web.cee9a455dbd5d9d23000.png",
+    "static/media/web.png": "/portfolio-React/static/media/web.0e684ece43c50732dabf.png",
+    "static/media/send.png": "/portfolio-React/static/media/send.dda6d72ae9aede755a83.png",
     "static/media/weather.webp": "/portfolio-React/static/media/weather.940cd83bc408368685b9.webp",
     "index.html": "/portfolio-React/index.html",
-    "main.22312a9d.css.map": "/portfolio-React/static/css/main.22312a9d.css.map",
-    "main.2fc2dbf2.js.map": "/portfolio-React/static/js/main.2fc2dbf2.js.map",
+    "main.16e17bf3.css.map": "/portfolio-React/static/css/main.16e17bf3.css.map",
+    "main.e65b7776.js.map": "/portfolio-React/static/js/main.e65b7776.js.map",
+    "415.1d8e63bb.chunk.js.map": "/portfolio-React/static/js/415.1d8e63bb.chunk.js.map",
     "787.d1c4c51b.chunk.js.map": "/portfolio-React/static/js/787.d1c4c51b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22312a9d.css",
-    "static/js/main.2fc2dbf2.js"
+    "static/css/main.16e17bf3.css",
+    "static/js/main.e65b7776.js"
   ]
 }
