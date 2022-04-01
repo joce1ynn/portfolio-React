@@ -326,10 +326,33 @@ textarea {
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 992px) {
+  .card-img-top {
+    height: 24vw;
+  }
+  .project-title {
+    font-size: 18px;
+  }
+  .project-tech {
+    font-size: 13px;
+  }
+  .card-body {
+    padding-bottom: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .profile-div {
     display: flex;
     justify-content: center;
+  }
+
+  .card-img-top {
+    height: 32vw;
+  }
+
+  .card-body {
+    padding-bottom: 8px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -383,5 +406,24 @@ textarea {
   .skill {
     margin-bottom: 30px;
     padding: 10px;
+  }
+
+  .card-img-top {
+    height: 160px;
+  }
+
+  .project-title {
+    font-size: 14px;
+  }
+  .project-tech {
+    font-size: 10px;
+  }
+
+  .github {
+    height: 30px;
+  }
+
+  .card-body {
+    padding-bottom: 0;
   }
 }
