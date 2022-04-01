@@ -25,7 +25,7 @@ export default function Navigation(props) {
           setCurrentPage("Portfolio");
         }}
       >
-        Portfolio
+        Projects
       </Nav.Link>
 
       {/* -------------------Contact page------------------- */}

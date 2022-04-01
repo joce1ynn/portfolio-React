@@ -4,10 +4,10 @@ import Navbar from "react-bootstrap/Navbar";
 
 export default function Header(props) {
   return (
-    <Navbar  className="navbar" variant="dark" expand="sm" aria-current="true">
+    <Navbar className="navbar" variant="dark" expand="sm" aria-current="true">
       <Navbar.Brand href="/" className="name">
         {" "}
-        &lt; WT /&gt;
+        &lt; Wenwen /&gt;
       </Navbar.Brand>
       {/* Responsive Navbars */}
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

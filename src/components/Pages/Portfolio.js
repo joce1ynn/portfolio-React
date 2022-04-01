@@ -25,6 +25,13 @@ export default function Portfolio() {
       deploy: "https://dhalladay.github.io/travel-app-events/",
     },
     {
+      title: "Run Buddy",
+      tech: "Javascrpt, HTML, CSS",
+      image: run,
+      github: "https://github.com/joce1ynn/run-buddy",
+      deploy: "https://joce1ynn.github.io/run-buddy/",
+    },
+    {
       title: "Weather Dashboard",
       tech: "Javascrpt, HTML, CSS, jQuery, bootstrap, moment.js",
       image: weather,
@@ -45,13 +52,6 @@ export default function Portfolio() {
       github: "https://github.com/joce1ynn/taskmaster-pro-API",
       deploy: "https://joce1ynn.github.io/taskmaster-pro-API/",
     },
-    {
-      title: "Run Buddy",
-      tech: "Javascrpt, HTML, CSS",
-      image: run,
-      github: "https://github.com/joce1ynn/run-buddy",
-      deploy: "https://joce1ynn.github.io/run-buddy/",
-    },
   ];
 
   const projectItem = projects.map((projects) => (
@@ -67,8 +67,8 @@ export default function Portfolio() {
 
   return (
     <div>
-      <h2 className="title">Portfolio</h2>
-      <div className="project">{projectItem}</div>
+      <h2 className="title">Projects</h2>
+      <div className="row project">{projectItem}</div>
     </div>
   );
 }
