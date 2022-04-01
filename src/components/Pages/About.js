@@ -9,10 +9,10 @@ export default function About() {
     <Container>
       <h2 className="title">About Me</h2>
       <Row>
-        <Col sm={4}>
+        <Col md={5} lg={4} className="profile-div">
           <img src={myImage} alt="profile" className="profile" />
         </Col>
-        <Col sm={8}>
+        <Col md={7} lg={8} className="profile-div">
           <div className="description">
             <p>
               I am Wenwen, a full stack developer. <br />I am currently based in
