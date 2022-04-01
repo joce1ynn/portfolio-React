@@ -30,11 +30,10 @@ To run this project, install it locally using npm:
 npm init -y
 npm install bootstrap
 npm install react-bootstrap bootstrap@5.1.3
-npm install gh-pages --save-dev
 npm install react-typed --legacy-peer-deps
 npm install react-tsparticles
-npm i tsparticles-preset-links
-
+npm install tsparticles-preset-links
+npm install -D gh-pages
 ```
 
 ## Usage
