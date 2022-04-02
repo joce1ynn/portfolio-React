@@ -33,7 +33,6 @@ npm install react-bootstrap bootstrap@5.1.3
 npm install react-typed --legacy-peer-deps
 npm install react-tsparticles
 npm install tsparticles-preset-links
-npm install -D gh-pages
 ```
 
 ## Usage
@@ -42,6 +41,28 @@ After installing npm packages, the application will be invoked by using the foll
 
 ```
 npm start
+```
+
+#### Deployment
+
+Install gh-pages:
+
+```
+npm install -D gh-pages
+```
+
+Edit package.json:
+
+```json
+"homepage": "http://<username>.github.io/photo-port",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+```
+
+Then run:
+
+```
+npm run deploy
 ```
 
 [Click me to see app!](https://joce1ynn.github.io/portfolio-React/)
