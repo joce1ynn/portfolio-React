@@ -21,6 +21,8 @@ Project is created with:
 - React.js
 - Javascript
 - Node.js
+- React Bootstrap
+- Bootstrap
 
 ## Installation
 
@@ -69,9 +71,11 @@ npm run deploy
 
 #### Portfolio Screenshot
 
-![Screenshot](/assets/images/ET-1.png)
-![Screenshot](/assets/images/ET-2.png)
-![Screenshot](/assets/images/ET-3.png)
+![Screenshot](/src/assets/images/home.png)
+![Screenshot](/src/assets/images/about.png)
+![Screenshot](/src/assets/images/projects.png)
+![Screenshot](/src/assets/images/contact.png)
+![Screenshot](/src/assets/images/resume.png)
 
 ## License
 
