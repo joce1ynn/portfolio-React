@@ -95,7 +95,7 @@ export default function Contact() {
           </div>
 
           {/* -------------------submit btn------------------  */}
-          <div className="input-div send">
+          <div className="send">
             <button
               className="send-btn"
               type="button"

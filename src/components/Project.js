@@ -3,7 +3,7 @@ import githubIcon from "./../assets/icons/gh-black.png";
 
 export default function Project(props) {
   return (
-    <div className="card px-0 project-card col-xl-3 col-lg-4 col-md-4 col-sm-6 col-7">
+    <div className="card px-0 project-card col-xl-3 col-lg-4 col-md-4 col-sm-6 col-8">
       <div className="project-img ">
         <img alt="project" className="card-img-top" src={props.image} />
       </div>

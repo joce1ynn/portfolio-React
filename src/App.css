@@ -107,7 +107,8 @@ body {
   width: 100%;
 }
 
-.input-div {
+.input-div,
+.send {
   width: 480px;
   margin-bottom: 25px;
 }
@@ -392,9 +393,14 @@ textarea {
     font-size: 15px;
   }
   .input-div {
-    width: 90%;
+    width: 80%;
     margin: 10px;
   }
+
+  .send {
+    margin-top: 20px;
+  }
+
   .send-text {
     font-size: 15px;
     text-align: center;
@@ -410,7 +416,7 @@ textarea {
     padding: 10px;
   }
 
-  .card{
+  .card {
     margin-bottom: 5px;
   }
 
