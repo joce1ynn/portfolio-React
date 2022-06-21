@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/resume/CV_wwt.pdf";
+import CV from "../../assets/resume/Resume_wwt.pdf";
 import download from "../../assets/icons/download.png";
 
 export default function Resume() {

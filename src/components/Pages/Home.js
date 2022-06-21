@@ -19,8 +19,10 @@ export default function Home() {
           <h1 className="hi">Hi, I am Wenwen Tian</h1>
           <Typed
             className="typing"
-            strings={["Full Stack Developer"]}
-            typeSpeed={100}
+            strings={["Full Stack Developer", "Public Health Professional"]}
+            typeSpeed={80}
+            backSpeed={30}
+            loop
           />
           <div>
             <img src={webIcon} className="webicon" alt="web development icon" />{" "}

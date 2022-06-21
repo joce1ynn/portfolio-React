@@ -6,12 +6,20 @@ export default function Footer() {
   return (
     <div className="footer">
       <div>
-        <a href="https://github.com/joce1ynn">
+        <a
+          href="https://github.com/joce1ynn"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img className="icon" src={githubIcon} alt="github icon" />
         </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/wenwentian">
+        <a
+          href="https://www.linkedin.com/in/wenwentian"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img className="icon" src={linkedinIcon} alt="linkedin icon" />
         </a>
       </div>
