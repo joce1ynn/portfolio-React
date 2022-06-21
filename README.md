@@ -29,12 +29,7 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-npm init -y
-npm install bootstrap
-npm install react-bootstrap bootstrap@5.1.3
-npm install react-typed --legacy-peer-deps
-npm install react-tsparticles
-npm install tsparticles-preset-links
+npm install
 ```
 
 ## Usage
@@ -67,15 +62,15 @@ Then run:
 npm run deploy
 ```
 
-[Click me to see app!](https://joce1ynn.github.io/portfolio-React/)
+[Click me to see my React portfolio!](https://joce1ynn.github.io/portfolio-React/)
 
 #### Portfolio Screenshot
 
-![Screenshot](/src/assets/images/home.png)
-![Screenshot](/src/assets/images/about.png)
-![Screenshot](/src/assets/images/projects.png)
-![Screenshot](/src/assets/images/contact.png)
-![Screenshot](/src/assets/images/resume.png)
+![Screenshot](./src/assets/images/home.png)
+![Screenshot](./src/assets/images/about.png)
+![Screenshot](./src/assets/images/projects.png)
+![Screenshot](./src/assets/images/contact.png)
+![Screenshot](./src/assets/images/resume.png)
 
 ## License
 
@@ -83,8 +78,8 @@ npm run deploy
 This project is licensed under MIT, for more information please visit [this website](https://opensource.org/licenses/MIT)
 
 ## Contribution
-
-Made by Wenwen Tian
+Icons are from Flaticon.com
+Made with ❤️ by Wenwen Tian
 
 ## Questions?
 

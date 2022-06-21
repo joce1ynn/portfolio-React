@@ -1,5 +1,5 @@
 import React from "react";
-import githubIcon from "./../assets/icons/gh-black.png";
+import githubIcon from "../assets/icons/gh-black.png";
 
 export default function Project(props) {
   return (
@@ -9,14 +9,19 @@ export default function Project(props) {
       </div>
       <div className="card-body row">
         <div className="col-sm-9 col-9">
-          <a className="project-title" href={props.deploy}>
+          <a
+            className="project-title"
+            href={props.deploy}
+            target="_blank"
+            rel="noreferrer"
+          >
             {props.title}
           </a>
           <p className="project-tech">{props.tech}</p>
         </div>
         <div className="col-sm-3 col-3 github-div">
-          <a href={props.github}>
-            <img className="github" src={githubIcon} alt="github icon"/>
+          <a href={props.github} target="_blank" rel="noreferrer">
+            <img className="github" src={githubIcon} alt="github icon" />
           </a>
         </div>
       </div>

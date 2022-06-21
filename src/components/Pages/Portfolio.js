@@ -1,15 +1,22 @@
 import React from "react";
 import Project from "../Project";
 // import images
-import matrix from "../../assets/images/matrix.jpg";
-import chrip from "../../assets/images/chrip.webp";
-import weather from "../../assets/images/weather.webp";
-import quiz from "../../assets/images/quiz.webp";
-import task from "../../assets/images/task.jpeg";
-import run from "../../assets/images/run.jpeg";
+import matrix from "../../assets/images/matrix.png";
+import chrip from "../../assets/images/chrip.png";
+import weather from "../../assets/images/weather.png";
+import quiz from "../../assets/images/quiz.png";
+import book from "../../assets/images/book.png";
+import run from "../../assets/images/run.png";
 
 export default function Portfolio() {
   const projects = [
+    {
+      title: "Book Search Engine",
+      tech: "MERN-stack",
+      image: book,
+      github: "https://github.com/joce1ynn/book-search-engine-MERN",
+      deploy: "https://book-search-engine-2022.herokuapp.com/",
+    },
     {
       title: "The Matrix Experience",
       tech: "Node.js, Javascrpt, Handlebars, sequelize, Express.js, CSS",
@@ -24,13 +31,7 @@ export default function Portfolio() {
       github: "https://github.com/dhalladay/travel-app-events",
       deploy: "https://dhalladay.github.io/travel-app-events/",
     },
-    {
-      title: "Run Buddy",
-      tech: "Javascrpt, HTML, CSS",
-      image: run,
-      github: "https://github.com/joce1ynn/run-buddy",
-      deploy: "https://joce1ynn.github.io/run-buddy/",
-    },
+
     {
       title: "Weather Dashboard",
       tech: "Javascrpt, HTML, CSS, jQuery, bootstrap, moment.js",
@@ -46,11 +47,11 @@ export default function Portfolio() {
       deploy: "https://joce1ynn.github.io/code-quiz-API/",
     },
     {
-      title: "Taskmaster Pro",
-      tech: "Javascrpt, HTML, CSS, jQuery, Bootstrap, Moment.js",
-      image: task,
-      github: "https://github.com/joce1ynn/taskmaster-pro-API",
-      deploy: "https://joce1ynn.github.io/taskmaster-pro-API/",
+      title: "Run Buddy",
+      tech: "Javascrpt, HTML, CSS",
+      image: run,
+      github: "https://github.com/joce1ynn/run-buddy",
+      deploy: "https://joce1ynn.github.io/run-buddy/",
     },
   ];
 
