@@ -78,7 +78,8 @@ npm run deploy
 This project is licensed under MIT, for more information please visit [this website](https://opensource.org/licenses/MIT)
 
 ## Contribution
-Icons are from Flaticon.com
+
+Icons are from Flaticon.com <br>
 Made with ❤️ by Wenwen Tian
 
 ## Questions?
