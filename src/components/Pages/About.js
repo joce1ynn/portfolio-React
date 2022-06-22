@@ -15,7 +15,7 @@ export default function About() {
         <Col md={7} lg={8} className="profile-div">
           <div className="description">
             <p>
-              My name is Wenwen and I was born in China. I have lived in China
+              My name is Wenwen and I was born in China. I lived in China
               for 24 years and spent five years on my medical education. During
               my last year of medical school, I did my clinical rotations in
               hospitals both in China and Singapore.
