@@ -15,22 +15,27 @@ export default function About() {
         <Col md={7} lg={8} className="profile-div">
           <div className="description">
             <p>
-              I am Wenwen, a full stack developer. <br />I am currently based in
-              Salt Lake City, Utah.
+              My name is Wenwen and I was born in China. I have lived in China
+              for 24 years and spent five years on my medical education. During
+              my last year of medical school, I did my clinical rotations in
+              hospitals both in China and Singapore.
             </p>
             <p>
-              I have extensive knowledge of JavaScript, React.js, Node.js, and
-              MongoDB.
-              <br />I am passionate about web development, and will continue to
-              explore new technologies in the industry.
+              In 2018, I moved to the United States and attended the University
+              of Utah. I graduated with a master’s degree of Public Health in
+              2020. After that, I worked as a data quality specialist at the
+              Utah Department of Health for one year.
             </p>
-            <p>I enjoy both outdoor and indoor activities:</p>
-            <ul>
-              <li>Travelling</li>
-              <li>Camping</li>
-              <li>Playing Games</li>
-              <li>Playing with My Dog</li>
-            </ul>
+            <p>
+              I recently earned a certificate in full-stack web development from
+              the University of Utah. I have extensive knowledge of HTML, CSS,
+              JavaScript, and Node.js. I am passionate about web development,
+              and will continue to explore new technologies in the industry.
+            </p>
+            <p>
+              I enjoy both outdoor and indoor activities, including traveling,
+              camping, playing video games, playing with my dogs, etc.
+            </p>
           </div>
         </Col>
       </Row>
