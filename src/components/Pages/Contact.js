@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import errorIcon from "../../assets/icons/error.png";
 import sendIcon from "../../assets/icons/send.png";
+import Footer from "../Footer";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -137,6 +138,7 @@ export default function Contact() {
           )}
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
