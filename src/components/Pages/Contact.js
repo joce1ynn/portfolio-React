@@ -3,6 +3,7 @@ import { validateEmail } from "../../utils/helpers";
 import errorIcon from "../../assets/icons/error.png";
 import sendIcon from "../../assets/icons/send.png";
 import Footer from "../Footer";
+import emailIcon from "../../assets/icons/email.png";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -57,6 +58,17 @@ export default function Contact() {
     <div>
       <div>
         <h2 className="title">Send a Message</h2>
+        <div className="email-div">
+          <p>
+            Contact me at{" "}
+            <a className="email" href="mailto:wwtian9@email.com">
+              {" "}
+              wwtian9@gmail.com{" "}
+            </a>{" "}
+            or through the following form.
+          </p>
+        </div>
+
         <form className="form">
           {/* -------------------Fill out name------------------  */}
           <div className="input-div">

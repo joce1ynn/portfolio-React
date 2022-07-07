@@ -17,7 +17,7 @@ export default function Project(props) {
           >
             {props.title}
           </a>
-          <p className="project-tech">{props.tech}</p>
+          <p className="project-descriiption">{props.descriiption}</p>
         </div>
         <div className="col-sm-3 col-3 github-div">
           <a href={props.github} target="_blank" rel="noreferrer">

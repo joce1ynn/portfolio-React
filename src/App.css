@@ -107,6 +107,16 @@ body {
   width: 100%;
 }
 
+.email-div {
+  text-align: center;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.email {
+  color: #00c853;
+}
+
 .input-div,
 .send {
   width: 480px;
@@ -292,7 +302,7 @@ textarea {
   text-decoration: underline;
 }
 
-.project-tech {
+.project-descriiption {
   font-size: 14px;
   color: black;
 }
@@ -336,7 +346,7 @@ textarea {
   .project-title {
     font-size: 18px;
   }
-  .project-tech {
+  .project-descriiption {
     font-size: 13px;
   }
   .card-body {
@@ -427,7 +437,7 @@ textarea {
   .project-title {
     font-size: 14px;
   }
-  .project-tech {
+  .project-descriiption {
     font-size: 10px;
   }
 
