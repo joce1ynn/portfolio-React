@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import myImage from "../../assets/images/me.JPG";
+import myImage from "../assets/images/me.JPG";
 
 export default function About() {
   return (

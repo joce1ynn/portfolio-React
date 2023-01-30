@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 // import components
 import Header from "./components/Header";
-import Home from "./components/Pages/Home";
-import About from "./components/Pages/About";
-import Portfolio from "./components/Pages/Portfolio";
-import Contact from "./components/Pages/Contact";
-import Resume from "./components/Pages/Resume";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");

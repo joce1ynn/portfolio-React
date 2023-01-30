@@ -1,9 +1,9 @@
 import React from "react";
 import Typed from "react-typed";
-import webIcon from "../../assets/icons/web.png";
+import webIcon from "../assets/icons/web.png";
 import Particles from "react-tsparticles";
 import { loadLinksPreset } from "tsparticles-preset-links";
-import Footer from "../Footer";
+import Footer from "../components/Footer";
 
 function particlesInit(tsParticles) {
   console.log("init", tsParticles);

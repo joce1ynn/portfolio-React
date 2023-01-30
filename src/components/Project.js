@@ -13,14 +13,14 @@ export default function Project(props) {
             className="project-title"
             href={props.deploy}
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             {props.title}
           </a>
           <p className="project-descriiption">{props.descriiption}</p>
         </div>
         <div className="col-sm-3 col-3 github-div">
-          <a href={props.github} target="_blank" rel="noreferrer">
+          <a href={props.github} target="_blank" rel="noreferrer noopener">
             <img className="github" src={githubIcon} alt="github icon" />
           </a>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import CV from "../../assets/resume/Resume_wwt.pdf";
-import download from "../../assets/icons/download.png";
+import CV from "../assets/resume/Resume_wwt.pdf";
+import download from "../assets/icons/download.png";
 
 export default function Resume() {
   return (
@@ -45,7 +45,7 @@ export default function Resume() {
         </div>
         {/* download CV */}
         <a href={CV} download className="download">
-          Download CV
+          Download Resume
           <img
             alt="download"
             style={{ display: "inline" }}

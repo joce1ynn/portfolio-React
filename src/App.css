@@ -210,15 +210,14 @@ textarea {
 }
 
 .download {
-  width: 180px;
+  width: 210px;
   height: 42px;
   border-radius: 20px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   background: linear-gradient(to top, #00c853, #b2ff59);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   text-decoration: none;
   color: black;
@@ -226,6 +225,7 @@ textarea {
 
 .download-icon {
   height: 23px;
+  margin-left: -5px;
 }
 
 .download:hover {
