@@ -23,7 +23,7 @@ export default function Portfolio() {
         "A MERN-stack app that allows users to search and save books.",
       image: book,
       github: "https://github.com/joce1ynn/book-search-engine-MERN",
-      deploy: "https://book-search-engine-2022.herokuapp.com/",
+      deploy: "https://book-search-mern.onrender.com/",
     },
     {
       title: "The Matrix Experience 🔗",
