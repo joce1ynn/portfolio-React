@@ -1,31 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "e5258f38027126c62ba2",
-    "url": "/portfolio-React/static/css/main.468c9f68.chunk.css"
+    "revision": "20f526633dcd46605dd9",
+    "url": "/portfolio-React/static/css/main.0736d8ab.chunk.css"
   },
   {
-    "revision": "e5258f38027126c62ba2",
-    "url": "/portfolio-React/static/js/main.e5258f38.chunk.js"
+    "revision": "20f526633dcd46605dd9",
+    "url": "/portfolio-React/static/js/main.20f52663.chunk.js"
   },
   {
-    "revision": "fbd0924dd8ee322e9bc2",
-    "url": "/portfolio-React/static/js/1.fbd0924d.chunk.js"
+    "revision": "2d281c672a566deb1a05",
+    "url": "/portfolio-React/static/js/1.2d281c67.chunk.js"
   },
   {
-    "revision": "ab2bda3814f8c0061ffb",
+    "revision": "b18be721dbb81984fa8a",
     "url": "/portfolio-React/static/css/2.d7850e56.chunk.css"
   },
   {
-    "revision": "ab2bda3814f8c0061ffb",
-    "url": "/portfolio-React/static/js/2.ab2bda38.chunk.js"
+    "revision": "b18be721dbb81984fa8a",
+    "url": "/portfolio-React/static/js/2.b18be721.chunk.js"
   },
   {
-    "revision": "f435d15ecf223a55a6eb",
-    "url": "/portfolio-React/static/js/3.f435d15e.chunk.js"
+    "revision": "1ab6bc733fda3b9d238b",
+    "url": "/portfolio-React/static/js/3.1ab6bc73.chunk.js"
   },
   {
-    "revision": "1a882b75d32349e2bcdc",
-    "url": "/portfolio-React/static/js/runtime~main.1a882b75.js"
+    "revision": "f8da08572f0519034b59",
+    "url": "/portfolio-React/static/js/runtime~main.f8da0857.js"
   },
   {
     "revision": "eaa1321bfe391e02cd964fc64fd0639f",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/portfolio-React/static/media/book.dd1726ea.png"
   },
   {
-    "revision": "dfdc45d128bcfc51590ee06e48bfe117",
-    "url": "/portfolio-React/static/media/run.dfdc45d1.png"
+    "revision": "3c448c904df44147bc54e9c23d6c9c48",
+    "url": "/portfolio-React/static/media/run.3c448c90.png"
   },
   {
     "revision": "ee30115726562bae9e60c81fa1e57a63",
@@ -72,11 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio-React/static/media/Resume_wwt.448c24a1.pdf"
   },
   {
-    "revision": "49c2cc222f0abc4d68592e657aee6ce9",
-    "url": "/portfolio-React/static/media/email.49c2cc22.png"
-  },
-  {
-    "revision": "23a5dec7f585a198381738f06c69a090",
+    "revision": "a9b00ad1722cceaf1de1a2a6d3a1fc68",
     "url": "/portfolio-React/index.html"
   }
 ];
