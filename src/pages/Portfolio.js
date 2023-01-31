@@ -31,7 +31,7 @@ export default function Portfolio() {
         "A Matrix fan page that lets users save or delete their favorite hovercrafts.",
       image: matrix,
       github: "https://github.com/AmHum/The-Matrix-Experience",
-      deploy: "https://matrix-experience.onrender.com",
+      deploy: "https://matrix-hovercraft.herokuapp.com/",
     },
     {
       title: "Chirp Travel Planner 🔗",
