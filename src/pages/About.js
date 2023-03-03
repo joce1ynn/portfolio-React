@@ -15,26 +15,21 @@ export default function About() {
         <Col md={7} lg={8} className="profile-div">
           <div className="description">
             <p>
-              My name is Wenwen and I was born in China. I lived in China
-              for 24 years and spent five years on my medical education. During
-              my last year of medical school, I did my clinical rotations in
-              hospitals both in China and Singapore.
+              My name is Wenwen and I'm originally from China. I dedicated five years to earning my medical degree,
+              which included clinical rotations in hospitals both in China and Singapore during my final year of medical school.
             </p>
             <p>
-              In 2018, I moved to the United States and attended the University
-              of Utah. I graduated with a master’s degree of Public Health in
-              2020. After that, I worked as a data quality specialist at the
-              Utah Department of Health for one year.
+              After moving to the United States in 2018, I pursued a Master's degree in Public Health at the University of Utah and graduated in 2020.
+              I then joined the Utah Department of Health as a data quality specialist, where I honed my analytical skills and gained expertise in SAS and R programming.
             </p>
             <p>
-              I recently earned a certificate in full-stack web development from
-              the University of Utah. I have extensive knowledge of HTML, CSS,
-              JavaScript, and Node.js. I am passionate about web development,
+              In 2022, I completed a certificate in full-stack web development from the University of Utah.
+              I have extensive knowledge of HTML, CSS, JavaScript, and Node.js. I am passionate about web development,
               and will continue to explore new technologies in the industry.
             </p>
             <p>
-              I enjoy both outdoor and indoor activities, including traveling,
-              camping, playing video games, playing with my dogs, etc.
+              Aside from work, I enjoy a range of activities including traveling, camping, playing video games, and spending time with my dogs.
+              I am always seeking new challenges and opportunities to learn and grow both personally and professionally.
             </p>
           </div>
         </Col>

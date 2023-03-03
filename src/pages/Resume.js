@@ -44,7 +44,7 @@ export default function Resume() {
           </div>
         </div>
         {/* download CV */}
-        <a href={CV} download className="download">
+        <a href={CV} target="_blank" rel="noopener noreferrer" className="download">
           Download Resume
           <img
             alt="download"
